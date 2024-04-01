@@ -32,6 +32,22 @@ function crearBotonHecho (span) {
     });
     return botonHecho;
 }
+function crearBotonEditar (span) {
+    let botonEditar = document.createElement('button');
+    botonEditar.classList.add('botonEditar', 'botonElem');
+    botonEditar.textContent = '✏️';
+
+    botonEditar.addEventListener('click', () => {
+        if (span) {
+            if (span.contentEditable === 'true') {
+                span.contentEditable = 'false';
+            } else {
+                span.contentEditable = 'true';
+            }
+        }
+    });
+    return botonEditar;
+}
 
 function crearElemento (value) {
     let elementos = document.getElementById('elementos');
@@ -50,11 +66,13 @@ function crearElemento (value) {
     let botonHecho = crearBotonHecho(span);
     botones.appendChild(botonHecho);
 
+    let botonEditar = crearBotonEditar(span);
+    botones.appendChild(botonEditar);
+
     let botonBorrar = crearBotonBorrar();
     botones.appendChild(botonBorrar);
 
     div.appendChild(botones);
-
 }
 
 boton.addEventListener('click', ()=> {
