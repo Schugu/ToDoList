@@ -5,7 +5,7 @@ let input = document.getElementById('input');
 
 function crearBotonBorrar () {
     let botonBorrar = document.createElement('button');
-    botonBorrar.classList.add('botonBorrar');
+    botonBorrar.classList.add('botonBorrar', 'botonElem');
     botonBorrar.textContent = '❌';
     
     botonBorrar.addEventListener('click', () => {
@@ -18,7 +18,7 @@ function crearBotonBorrar () {
 }
 function crearBotonHecho (span) {
     let botonHecho = document.createElement('button');
-    botonHecho.classList.add('botonHecho');
+    botonHecho.classList.add('botonHecho', 'botonElem');
     botonHecho.textContent = '✅';
 
     botonHecho.addEventListener('click', () => {
@@ -67,7 +67,6 @@ boton.addEventListener('click', ()=> {
         input.value = '';
     }
 });
-
 
 function enterEvento (event) {
     if (event.key === 'Enter') { // Verificar si la tecla presionada es Enter
