@@ -41,8 +41,10 @@ function crearBotonEditar (span) {
         if (span) {
             if (span.contentEditable === 'true') {
                 span.contentEditable = 'false';
+                span.style.backgroundColor = 'transparent';
             } else {
                 span.contentEditable = 'true';
+                span.style.backgroundColor = '#ff977164';
             }
         }
     });
@@ -79,7 +81,7 @@ boton.addEventListener('click', ()=> {
     let elemento = input.value;
 
     if (elemento.trim() == '') {
-        alert('introducí algo pa');
+        alert('Introduzca algo que agregar');
     } else {
         crearElemento (elemento);
         input.value = '';
