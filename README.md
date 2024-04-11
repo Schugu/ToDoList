@@ -4,7 +4,7 @@
 
 🎯 Objetivo: Crear una página ToDoList.
 
-Esta idea de proyecto está inspirada en el curso "JavaScript para Manipulación del DOM" de FreeCodeCamp Español. Aunque me guié por la idea presentada en el curso, he desarrollado esta página generadora de colores hexadecimales aleatorios a mi manera, añadiendo mis propios enfoques y personalizaciones. Puedes encontrar el curso en este enlace [aquí](https://www.youtube.com/watch?v=koiPxFFiqJ4 "Click aquí").
+Esta idea de proyecto está inspirada en el curso "JavaScript para Manipulación del DOM" de FreeCodeCamp Español. Aunque me guié por la idea presentada en el curso, he desarrollado esta página ToDoList a mi manera, añadiendo mis propios enfoques y personalizaciones. Puedes encontrar el curso en este enlace [aquí](https://www.youtube.com/watch?v=koiPxFFiqJ4 "Click aquí").
 
 ------------
 
