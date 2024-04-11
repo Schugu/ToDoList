@@ -1,23 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/ico" href="media/Paomedia-Small-N-Flat-Sign-check.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="/iconoPage.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDoList</title>
-</head>
-<body>
-    <main class="main">
-        <h1 class="titulo">Lista de tareas</h1>
-        <section class="containerList" id="containerList">
-            <article class="articleInput" id="articleInput">
-                <input type="text" class="input" id="input" autocomplete="off" placeholder="Agregar un nuevo elemento">
-                <button class="boton" id="boton">+</button>
-            </article>
-            <article class="elementos" id="elementos"></article>
-        </section>
-    </main>
-    <script src="app.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
+  
