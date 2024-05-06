@@ -56,3 +56,4 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 <img src='public/capturaDePantalla.gif' alt='CapturaDePantalla1'>
 
 
+
